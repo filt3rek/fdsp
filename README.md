@@ -26,5 +26,5 @@ For now it includes :
 
 		FDAllProj.showFDProjects( "c:/workspace/projects" );
 	
- * Launch run.bat
- * Open the Start Page (menu "View" -> "StartPage" )
+ * Launch *bin/run.bat*
+ * Open the Start Page (menu *View* --> *StartPage* )
