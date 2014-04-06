@@ -18,7 +18,7 @@ For now it includes :
 ## Installation
 
  * Open FlashDevelop
- * Go to the menu *Tools* --> *Program Settings*
+ * Go to the menu *Tools* -> *Program Settings*
  * Select the *Start Page* plugin (on the left panel)
  * Set *Custom Start Page* pointing to the absolute path to *bin/index.html*
  * Set *Use Custom Start Page* to *true*
@@ -27,4 +27,4 @@ For now it includes :
 		FDAllProj.showFDProjects( "c:/workspace/projects" );
 	
  * Launch *bin/run.bat*
- * Open the Start Page (menu *View* --> *StartPage* )
+ * Open the Start Page (menu *View* -> *StartPage* )
