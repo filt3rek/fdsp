@@ -1,0 +1,110 @@
+* {
+	font-size	: 8pt;
+	font-family	: "Trebuchet MS", Georgia, Times, serif;
+	color		: #333333;
+}
+
+body {
+	background-color	: #f9f9f9;
+	padding				: 0px;
+	margin				: 0px;
+	background-image	: url( 'gfx/pageHeader.png' );
+	background-repeat	: repeat-x;
+	background-position	: top;
+}
+
+img {
+	border	: none;
+}
+
+a {
+	color			: #333333;
+	text-decoration	: none;
+}
+
+p {
+	margin	: 0px;
+	padding	: 0px;
+}
+
+hr {
+	margin				: 0px;
+	padding				: 0px;
+	height				: 1px;
+	color				: #666666;
+}
+
+.panel_hat {
+	width				: 378px;
+	height				: 16px;
+	background-color	: #DDDDDD;
+	border-top			: 1px solid #666666;
+	border-left			: 1px solid #666666;
+	border-right		: 1px solid #666666;
+	background-image	: url( 'gfx/iconProject.gif' );
+	background-repeat	: no-repeat;
+	background-position : 2px 2px;
+	padding				: 2px;
+	padding-left		: 20px;
+	font-size			: 12px;
+	font-weight			: bold;
+}
+
+.panel {
+	width				: 400px;
+	height				: 500px;
+	border 				: 1px solid #666666;
+	background-color	: #EEEEEE;
+	padding				: 10px;
+	overflow			: auto;
+}
+
+ul.tree, ul.tree ul{
+	list-style-type		: none;
+	background			: url( 'gfx/vline.gif' );
+	background-repeat	: repeat-y;
+	padding				: 0px;
+	margin				: 0px;
+}
+
+ul.tree ul {
+	margin-left	: 10px;
+}
+
+ul.tree li {
+	margin				: 0;
+	padding				: 0 12px;
+	line-height			: 20px;
+    background-image	: url( 'gfx/node.gif' );
+	background-repeat	: no-repeat;
+}
+
+ul.tree li.last {
+	background-color	: #EEEEEE;
+	background-image	: url( 'gfx/last_node.gif' );
+	background-repeat	: no-repeat;
+}
+
+.tree a {
+	background			: url( 'gfx/iconProject.gif' );
+	background-repeat	: no-repeat;
+	background-position	: left center;
+	padding-left		: 20px;
+	font-size			: 12px;
+	font-weight			: bold;
+}
+
+.tree a:hover {
+	font-size	: 20px;
+}
+
+#tooltip {
+	background-color	: #FFFFFF;
+	border 				: 1px solid #666666;
+	font-size 			: 11px;
+	padding 			: 2px 5px;
+}
+
+#header {
+	height	: 100px;
+}

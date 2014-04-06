@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Start Page</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link href="fdsp.css" rel="stylesheet" type="text/css" title="styles" media="all" />
+		<script type="text/javascript" language="javascript" src="js/fdsp.js"></script>
+		<script type="text/javascript" language="javascript" src="js/fdallproj.js"></script>
+		<!--<script type="text/javascript" language="javascript" src="js/fdprevproj.js"></script>-->
+	</head>
+	<body>
+		<div id="tooltip"></div>
+		<div id="header"></div>
+		<div id="fdallprojDiv" class="panel"></div>
+		<div id="fdprevprojDiv" class="panel"></div>
+		<script type="text/javascript">
+			window.external.PageReady();
+			function run(){
+				var FDSP			= window.ftb.app.fdsp.FDSP;
+				//var FDPrevProj 		= window.ftb.app.fdsp.plugin.fdprevproj.FDPrevProj;
+				var FDAllProj 		= window.FDAllProj;
+				FDSP.init( "tooltip" );
+				FDAllProj.init( "fdallprojDiv" );
+				//FDPrevProj.init( "fdprevprojDiv" );
+					
+				FDAllProj.showFDProjects( "d:/Filt3rek/project/" );
+			}
+			window.onload = run;
+		</script>
+	</body>
+</html>
+
