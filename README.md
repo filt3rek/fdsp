@@ -20,9 +20,9 @@ For now it includes :
  * Open FlashDevelop
  * Go to the menu "Tools" -> "Program Settings"
  * Select the "Start Page" plugin (on the left panel)
- * Set "Custom Start Page" pointing to the absolute path to index.html (in bin folder)
+ * Set "Custom Start Page" pointing to the absolute path to *bin/index.html*
  * Set "Use Custom Start Page" to true
- * Set your projects' root folder (path to the root of your FD projects repository) in index.html :
+ * Set your projects' root folder (path to the root of your FD projects repository) in *bin/index.html* :
 
 		FDAllProj.showFDProjects( "c:/workspace/projects" );
 	
