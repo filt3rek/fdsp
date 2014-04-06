@@ -24,7 +24,9 @@ For now it includes :
  * Set "Use Custom Start Page" to true
  * Set your projects' root folder (path to the root of your FD projects repository) in index.html :
 	 
+	
 	FDAllProj.showFDProjects( "c:/workspace/projects" );
 	
+
  * Launch run.bat
  * Open the Start Page (menu "View" -> "StartPage" )
